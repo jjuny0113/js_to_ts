@@ -45,7 +45,7 @@ const NumberBaseballFunction = () => {
         for (let i = 0; i < 4; i += 1) {
           if (answerArray[i] === answer[i]) {
             strike += 1;
-          } else if (answer.includes(answerArray)) {
+          } else if (answer.includes(answerArray[i])) {
             ball += 1;
           }
         }
